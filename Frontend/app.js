@@ -1,5 +1,5 @@
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://quickbite-backend-z9k8.onrender.com";
 
 const foods = [
     { id: 1, name: "Veg Burger", price: 99, emoji: "🍔" },
