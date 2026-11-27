@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBite - Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍔 QuickBite</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <section id="cart"></section>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Delicious Food, Delivered Fast!</h2>
+        <p>Order your favourite food from QuickBite.</p>
+        <a href="#menu" class="btn">Explore Menu</a>
+    </section>
+
+    <section id="menu">
+        <h2>Our Food Menu</h2>
+        <div id="food-list" class="food-container"></div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <h3 id="total">Total: ₹0</h3>
+
+<h3>Customer Details</h3>
+
+<input
+    type="text"
+    id="customer-name"
+    placeholder="Enter your name"
+>
+
+<br><br>
+
+<textarea
+    id="customer-address"
+    placeholder="Enter delivery address"
+></textarea>
+
+        <button onclick="placeOrder()">Place Order</button>
+        <p id="message"></p>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
